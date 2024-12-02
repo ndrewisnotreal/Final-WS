@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dbo="http://dbpedia.org/ontology/"
+    xmlns:dbr="http://dbpedia.org/resource/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+    <!-- Gunung Rinjani -->
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Mount_Rinjani">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Mountain"/>
+        <rdfs:label xml:lang="en">Mount Rinjani</rdfs:label>
+        <dbo:abstract xml:lang="en">
+            Mount Rinjani is an active volcano on the island of Lombok, Indonesia. It is the second-highest volcano in Indonesia, with an elevation of 3,726 meters.
+        </dbo:abstract>
+        <dbo:elevation>3726</dbo:elevation>
+        <geo:lat>-8.4116</geo:lat>
+        <geo:long>116.4577</geo:long>
+        <dbo:country rdf:resource="http://dbpedia.org/resource/Indonesia"/>
+        <dbo:thumbnail rdf:resource="https://upload.wikimedia.org/wikipedia/commons/5/54/Rinjani.jpg"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Mount_Rinjani"/>
+    </rdf:Description>
+
+    <!-- Gunung Bromo -->
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Mount_Bromo">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Mountain"/>
+        <rdfs:label xml:lang="en">Mount Bromo</rdfs:label>
+        <dbo:abstract xml:lang="en">
+            Mount Bromo is an active volcano and part of the Tengger massif in East Java, Indonesia. At 2,329 meters, it is one of the most visited tourist attractions in the region.
+        </dbo:abstract>
+        <dbo:elevation>2329</dbo:elevation>
+        <geo:lat>-7.9425</geo:lat>
+        <geo:long>112.9533</geo:long>
+        <dbo:country rdf:resource="http://dbpedia.org/resource/Indonesia"/>
+        <dbo:thumbnail rdf:resource="https://upload.wikimedia.org/wikipedia/commons/4/48/Mount_Bromo.jpg"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Mount_Bromo"/>
+    </rdf:Description>
+
+    <!-- Gunung Merapi -->
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Mount_Merapi">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Mountain"/>
+        <rdfs:label xml:lang="en">Mount Merapi</rdfs:label>
+        <dbo:abstract xml:lang="en">
+            Mount Merapi is an active stratovolcano located on the border between Central Java and Yogyakarta, Indonesia. It is the most active volcano in Indonesia, with regular eruptions since 1548.
+        </dbo:abstract>
+        <dbo:elevation>2930</dbo:elevation>
+        <geo:lat>-7.5407</geo:lat>
+        <geo:long>110.4465</geo:long>
+        <dbo:country rdf:resource="http://dbpedia.org/resource/Indonesia"/>
+        <dbo:thumbnail rdf:resource="https://upload.wikimedia.org/wikipedia/commons/e/e3/Merapi_in_Morning.jpg"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Mount_Merapi"/>
+    </rdf:Description>
+
+</rdf:RDF>
